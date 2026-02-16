@@ -9,3 +9,12 @@ p {
    font-family: verdana;
    font-size: 20px;
 }
+
+p.test1 {
+  width: 200px;
+  border: 1px solid #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
